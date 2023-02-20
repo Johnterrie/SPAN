@@ -1,0 +1,230 @@
+@import url(https://fonts.google.com/specimen/Epilogue);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Epilogue", sans-serif;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    margin: 25px 100px 0 25px ;
+}
+
+.list-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.ul-one {
+    list-style-type: none;
+    display: flex;    
+}
+
+.ul-two {
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
+
+.li-spec {
+    width: 100px;
+    text-align: right;
+}
+
+.container {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 90%;
+}
+
+.left-cont {
+    position: relative;
+    /* border: 1px solid salmon; */
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    padding-top: 8%;
+}
+
+.right-cont {
+    position: relative;
+    margin-left: 100px;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid green; */
+    float: right;
+    padding-top: 4%;
+}
+
+.left-inner {
+    position: relative;
+    width: 70%;
+    height: 90%;
+    /* border: 1px solid yellow; */
+    margin-left: 20%;
+}
+
+.make-rem {
+    position: relative;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 50px;
+    object-fit: cover;
+    transform: scale(1.45, 1.2);
+    transform-origin: 0 0;
+}
+
+.right-inner {
+    position: absolute;
+    width: 55%;
+    height: 80%;
+    /* border: 1px solid yellow; */
+    left: 150px;
+    margin: 0;
+}
+
+.get-team {
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.btn {
+    width: 120px;
+    height: 33px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.imag-div {
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+}
+
+.img-d {
+    /* border: 1px solid red; */
+    width: 60px;
+    align-items: space-between;
+    margin-right: 20px;
+}
+
+.menu-icon {
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 970px) {
+
+    .img-d {
+        /* border: 1px solid red; */
+        width: 40px;
+        align-items: space-between;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 750px) {
+        
+    .container {
+        width: 455px;
+        height: 700px;
+    }
+
+    body {
+        max-width: 100vw;
+        max-height: 100vh;
+        background-color: hsl(0, 0%, 98%);
+        font-family: "Epilogue", sans-serif;
+        display: flexbox;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    
+
+    nav {
+        position: absolute;
+        left: 4.1rem;
+        display: flex;
+        width: 18rem;
+        justify-content: space-between;
+        /* border:1px solid brown; */
+        margin: 10px 10px;
+    }
+
+    
+
+    .right-cont {
+        position: relative;
+        top: 2.8rem;
+        left: 4.0rem;
+        /* border: 1px solid green; */
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .make-remote {
+        position: absolute;
+        top: 19rem;
+        left: 5.3rem;
+    }
+
+    .get-your {
+        /* border: 1px solid red; */
+        width: 18rem;
+        position: absolute;
+        top: 22rem;
+        left: 5.0rem;
+        text-align: center;
+    }
+
+    .learn-more {
+        position: absolute;
+        top: 27rem;
+        left: 145px;
+        width: 150px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        background-color: black;
+        color: #ffff;
+    }
+
+    .bottom {
+        left: 4.5rem;
+        width: 20rem;
+        position: absolute;
+        top: 32rem;
+        /* border: 1px solid orange; */
+    }
+
+    .img-d {
+        /* border: 1px solid red; */
+        width: 75px;
+    }
+
+    .list-div {
+        visibility: hidden;
+    }
+
+   
+}
+
